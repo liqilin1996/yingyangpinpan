@@ -53,8 +53,7 @@
 	<li>帮你拼：用户输入一款想吃的菜肴，程序帮用户搭配出另外合理的菜肴作搭配</li>
 	<li>自主拼：用户输入自己想吃的菜肴搭配，程序为其进行营养评价。</li>
 </ol>
-<h3>页面展示</h3>
-	<h4>主页</h4>		
+<h3>页面展示</h3>		
 	<span><img src="imgs/zhuye.jpg"/>&nbsp;&nbsp;&nbsp;
 	<img src="imgs/shiwubaike.jpg">
 	</span>
