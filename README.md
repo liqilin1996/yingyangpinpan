@@ -2,7 +2,7 @@
 	<img src="https://github.com/liqilin1996/ruanjiangongcheng/blob/master/imgs/logo%20.png"/>
 </div>
 <h1>2016级项目实训成果展示</h1>
-<h2>《营养品盘》- HTML5与移动互联网开发</h2>
+<h2>《营养拼盘》- HTML5与移动互联网开发</h2>
 <h3>Github</h3>
 <ul><li>https://github.com/liqilin1996/yingyangpinpan</li></ul>
 <h3>项目简介</h3>
