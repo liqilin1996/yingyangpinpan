@@ -1,0 +1,37 @@
+<view class='main'>
+
+  <!-- 页面说明文字 -->
+  <view class='tip'>
+  <text class='row1'>没有想法？</text>
+  <text class='row2'>试试按条件选择你想吃的...</text>
+  </view>
+
+
+
+  <!-- 口味单选框 -->
+  <text class='kouwei'>口味：</text>
+  <view class='taste'>
+    <radio-group class="radio-group" bindchange="radioChange_taste">
+      <label class="radio" wx:for="{{item_taste}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" class='taste-radio-txt'/> {{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+<!-- 菜系单选框 -->
+  <text class='caixi_txt'>菜系：</text>
+  <view class='caixi'>
+    <radio-group class="radio-group-1" bindchange="radioChange_caixi">
+      <label class="radio" wx:for="{{item_caixi}}">
+        <radio value="{{item.name}}" checked="{{item.checked}}" class='taste-radio-txt'/> {{item.value}}
+      </label>
+    </radio-group>
+  </view>
+
+
+  <!-- 按钮 -->
+  <view bindtap='toShowModal' class='btn'>
+  <image src='https://zn1121.com/images/nextstep_1e.png' class='icon'></image>
+  <!-- <text class='btn_txt'>点我生成菜单...</text> -->
+  </view>
+</view>

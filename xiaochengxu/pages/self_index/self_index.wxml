@@ -1,0 +1,28 @@
+<view>
+  <view class='title'>
+    <view class='img'>
+      <image src="{{food1[0].url}}" class='img_txt' />
+    </view>
+    <view class='name'>
+      <text class='name_txt'>{{food1[0].name}}</text>
+    </view>
+  </view>
+
+  <view class='shuxing'>
+    <text class='shuxing_txtcai'>菜系：{{food1[0].caixi}}</text>
+    <text class='shuxing_txt'>荤素：{{food1[0].hunsu}}</text>
+    <text class='shuxing_txt'>味道：{{food1[0].taste}}</text>
+  </view>
+  <view class='yuanliao'>
+    <text class='yuanliao_name'>原料：</text>
+    <text class='yuanliao_text'>{{food1[0].yuanliao}}</text>
+  </view>
+  <view class='tiaoliao'>
+    <text class='yuanliao_name'>调料：</text>
+    <text class='tiaoliao_text'>{{food1[0].tiaoliao}}</text>
+  </view>
+  <view class='do'>
+    <text class='yuanliao_name'>做法：</text>
+    <text class='yuanliao_text'>{{food1[0].do}}</text>
+  </view>
+</view>

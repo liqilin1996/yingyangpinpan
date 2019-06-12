@@ -1,0 +1,15 @@
+<view>
+  <view class='search_box'>
+    <image src='https://zn1121.com/images/search.png' class='search_icon'></image>
+    <input type='text' class='search_inp' placeholder='请输入一道菜名' bindconfirm='go' value='{{textareaVal}}' />
+  </view>
+  <view class='txt_box'>
+    <text class='txt'>——为你推荐——</text>
+  </view>
+  <view class='txt_tuijian_box'>
+    <view class='txt_tuijian' wx:for="{{arr1}}" wx:key="{{index}}">
+      <text class='menu' bindtap='showModal{{index}}'>{{item.name}}</text>
+    </view>
+    <text class='huan' bindtap='updateit'>换一批</text>
+  </view>
+</view>

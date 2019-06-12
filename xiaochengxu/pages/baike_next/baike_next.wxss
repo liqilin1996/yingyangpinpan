@@ -1,0 +1,68 @@
+page{
+  /* background:url('https://barenzoe.top/images/modaobg.png') no-repeat;
+  background-size: 100% 100%; */
+  background-color: rgb(240, 240, 240);
+}
+.caiming{
+  font-size: 170%;
+  /* font-weight: 900; */
+  
+  position: relative;
+  top: 70rpx;
+  left: 80rpx;
+}
+.attribute{
+  margin-top: 12%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.guishudi{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 32rpx;
+  font-family: '方正兰亭超细黑简体';
+}
+.caixi{
+  font-size: 32rpx;
+  font-family: '方正兰亭超细黑简体';
+}
+.img_box{
+  height: 200rpx;
+  width: 200rpx;
+  position: absolute;
+  top: 5%;
+  left: 62%;
+  border-radius: 10rpx;
+}
+.img{
+  height: 200rpx;
+  width: 200rpx;
+}
+.tip_box{
+  height: 10%;
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+}
+.tip{
+  color: green;
+  /* font-size: 90%; */
+  font-size: 26rpx;
+}
+.culture{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 800rpx;
+  overflow: scroll;
+}
+.content{
+  
+  font-size: 90%;
+  font-family: '方正兰亭超细黑简体';
+}
+

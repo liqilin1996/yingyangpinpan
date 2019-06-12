@@ -1,0 +1,86 @@
+page{
+  /* background: url('https://zn1121.com/images/self_background.png') repeat-x;
+  background-size:100% 110%; */
+  background-color: rgb(242, 242 , 242)
+}
+.title{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 10%;
+  float: left;
+}
+.img{
+  width: 50%;
+  float: left;
+}
+.img_txt{
+  width: 280rpx;
+  height: 280rpx;
+  margin: 45rpx 0 0 75rpx;
+  border-radius: 15rpx;
+}
+.name{
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 370rpx;
+}
+.name_txt{
+  font-size: 54rpx;
+  font-family:"方正兰亭超细黑简体";
+}
+.shuxing{
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+}
+.shuxing_txtcai{
+  font-size: 30rpx;
+  margin: 5% 4% 0 9%;
+  font-family:"方正兰亭超细黑简体";
+}
+.shuxing_txt{
+  font-size: 30rpx;
+  margin: 5% 4% 0 4%;
+  font-family:"方正兰亭超细黑简体";
+}
+.yuanliao{
+  width: 93%;
+  float: left;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-family:"方正兰亭超细黑简体";
+}
+.yuanliao_name{
+  width: 100%;
+  float: left;
+  margin: 0 0 0 10%;
+  font-size: 30rpx;
+}
+.yuanliao_text{
+  width: 84%;
+  float: left;
+  margin: 0 0 0 15%;
+  font-size: 28rpx;
+}
+.tiaoliao{
+  width: 93%;
+  float: left;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-family:"方正兰亭超细黑简体";
+}
+.tiaoliao_text{
+  width: 84%;
+  float: left;
+  margin: 0 0 0 15%;
+  font-size: 28rpx;
+}
+.do{
+  width: 93%;
+  float: left;
+  margin: 0 auto;
+  margin-top: 6%;
+  font-family:"方正兰亭超细黑简体";
+  margin-bottom: 10%;
+}

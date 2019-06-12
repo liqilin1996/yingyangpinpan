@@ -1,0 +1,39 @@
+page{
+  background:url('https://zn1121.com/images/index_bg.jpg') no-repeat;
+  /* background-size: 100% 110%; */
+}
+.main{
+  display: flex; 
+  flex-direction: column;
+}
+.self{
+  margin-top: 18%;
+  width: 100%;
+  
+  text-align: center;
+}
+.self_img{
+  height: 300rpx;
+  width: 500rpx;
+  border-radius: 20rpx;
+}
+.rand{
+  margin-top:15%;
+  width: 100%;
+  text-align: center;
+}
+.rand_img{
+  border-radius: 20rpx;
+  height: 300rpx;
+  width: 550rpx;
+}
+.help{
+  margin-top:15%;
+  width: 100%;
+  text-align: center;
+}
+.help_img{
+  height: 300rpx;
+  width: 550rpx;
+  border-radius: 20rpx;
+}

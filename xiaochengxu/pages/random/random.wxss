@@ -1,0 +1,19 @@
+page{
+  /* background:rgb(240, 240, 240) */
+  background: url('https://zn1121.com/images/random_background.png') repeat-x;
+  background-size:100% 110%;
+  
+}
+.txt{
+  font-size: 28rpx;
+  float: left;
+  font-family: "方正兰亭超细黑简体";
+  margin:200rpx 0  0 100rpx
+}
+.btn{
+  float: left;
+  margin: 600rpx 0rpx 0 450rpx;
+  font-size: 28rpx; 
+  font-family: "方正兰亭超细黑简体";
+  background:rgb(240, 240, 240);
+}

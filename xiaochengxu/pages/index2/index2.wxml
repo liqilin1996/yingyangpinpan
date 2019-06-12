@@ -1,0 +1,11 @@
+<view class="main" style=''>
+  <view class='self'>
+    <image class='self_img' src='https://zn1121.com/images/zzp_img.jpg' alt="自主拼" mode='scaleToFill' bindtap='goself'></image>
+  </view>
+  <view class='rand'>
+    <image class='rand_img' mode="scaleToFill" src='https://zn1121.com/images/sjp_img.jpg' bindtap='gorandom'></image>
+  </view>
+  <view class='help'>
+    <image class='help_img' src='https://zn1121.com/images/bnp_img.jpg' mode='scaleToFill' bindtap='gohelp'></image>
+  </view>
+</view>

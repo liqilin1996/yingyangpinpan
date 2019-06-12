@@ -1,0 +1,15 @@
+{
+    "apps" : [{
+      "name" : "Nutrition-Platter",  
+      "script": "./bin/www",
+      "cwd": "./",         
+      "watch":[
+          "bin",
+          "common",
+          "public",
+          "routes",
+          "views",
+          "modules"
+      ]
+      }]
+  }

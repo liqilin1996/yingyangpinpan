@@ -1,0 +1,11 @@
+<swiper class="swiper" next-margin="140rpx" current-item-id="{{currentItemId}}" previous-margin="140rpx" bindchange="swiperChange">  
+  <block wx:for="{{backClass}}" wx:key="index">
+    <swiper-item item-id="{{index}}" data-item-id="{{index}}" class="swiper-item">  
+     <view class='li {{item}}' bindtap='gopage{{index}}'>
+      <!-- <view class='li1 {{item}} {{currentItemId == index ? "selected" : ""}}' ></view> -->
+      <image src='https://zn1121.com/images/index_{{index}}.png' style='width:70%' class='img'></image>
+      <image src='https://zn1121.com/images/index_txt{{index}}.png' class='img_txt'></image>
+     </view> 
+    </swiper-item>  
+    </block>
+</swiper>

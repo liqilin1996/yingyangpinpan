@@ -1,0 +1,59 @@
+<view>
+  
+  <!-- 轮播图 -->
+  <view>
+    <swiper class='img_lunbo' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  
+  <!-- 标题box -->
+  <view class='title'>
+
+    <view class='row1' bindtap='goself'>
+      <view class='wenzi'>
+        <text class='txt'>- 自主拼 -</text>
+        <text class='en_txt'>拼你所想</text>
+      </view>
+      <view class='red'>
+        <image src='https://zn1121.com/images/01.png' class='img'></image>
+      </view>
+    </view>
+
+    <view class='row2' bindtap='gorandom'>
+      <view class='blue'>
+        <image src='https://zn1121.com/images/02.png' class='img'></image>
+      </view>
+      <view class='random'>
+        <text class='txt'>- 随机拼 -</text>
+        <text class='en_txt'>拼出惊喜</text>
+      </view>
+    </view>
+
+    <view class='row3' bindtap='gohelp'>
+      <view class='wenzi'>
+        <text class='txt'>- 帮你拼 -</text>
+        <text class='en_txt'>拼的均衡</text>
+      </view>
+      <view class='green'>
+        <image src='https://zn1121.com/images/03.png' class='img' mode='aspectFit'></image>
+      </view>
+    </view>
+    <view class='row2' bindtap='gobaike'>
+      <view class='blue'>
+        <image src='https://zn1121.com/images/baike_index.jpg' class='img' style='width:80% height:80%'></image>
+      </view>
+      <view class='random'>
+        <text class='txt'>- 食物百科 -</text>
+        <text class='en_txt'>拼出学问</text>
+      </view>
+    </view>
+  </view>
+  
+
+
+</view>

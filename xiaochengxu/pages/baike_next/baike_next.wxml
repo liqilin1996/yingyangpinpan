@@ -1,0 +1,28 @@
+<view>
+
+<!-- 菜名 -->
+<text class='caiming'>{{arr_search[0].name}}</text>
+<!-- 归属地、菜系 -->
+<view class='attribute'>
+<text class='guishudi'>归属地：{{arr_search[0].area}}</text>
+<text class='caixi'>菜系：{{arr_search[0].caixi}}</text>
+</view>
+
+<!-- 图片 -->
+
+<view class='img_box'>
+<image class='img' src='{{arr_search[0].url}}' mode='scaleToFill'></image>
+</view>
+
+<!-- 标语 -->
+<view class='tip_box'>
+<text class='tip'>{{arr_search[0].tip}}</text>
+</view>
+
+<!-- 文化介绍 -->
+<view class='culture'>
+<text class='content'>{{arr_search[0].culture}}</text>
+</view>
+
+
+</view>

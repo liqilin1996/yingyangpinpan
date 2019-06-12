@@ -1,0 +1,49 @@
+/* pages/index/index.wxss */
+page{
+  background:url('https://zn1121.com/images/index_bg.jpg') no-repeat;
+  /* background-size: 100% 110%; */
+}
+.li{
+  width: 446rpx;
+  height: 252rpx;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  transform: scale(0.9);
+}
+.selected{
+  transform: scale(1)
+}
+.red{
+  height: 812rpx;
+  background: #67eaca;
+}
+.blue{
+  height: 812rpx;
+  background: #feb9c8;
+}
+.green{
+  height: 812rpx;
+  background: #94fc13;
+}
+.orange{
+  height: 812rpx;
+  background: #f6e79c;
+}
+.swiper{
+  height: 1448rpx;
+  /* background: #eee; */
+  background:url('https://zn1121.com/images/index_bg.jpg') no-repeat;
+  background-size: 100% 100%;
+
+}
+.swiper-item{
+  margin-top: 230rpx;
+}
+.img{
+  margin:60rpx 0 0 60rpx;
+}
+.img_txt{
+  margin: 60rpx 0 50rpx 100rpx;
+  width: 220rpx;
+  height: 80rpx;
+}

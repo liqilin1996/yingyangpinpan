@@ -1,0 +1,80 @@
+<view class='container'>
+
+<!-- 标题：匹配结果 -->
+<view class='title'>
+<text class='txt'>匹配结果</text>
+</view>
+
+<!-- 菜1的百科 -->
+<view class='box1'>
+  <view class='box_img1'>
+    <image class='img1' src='{{food1[0].url}}' ></image>
+    
+  </view>
+  <view class='box1-2'>
+    <text class='name1'>名称：{{food1[0].name}}</text>
+  </view>
+  <view class='box1-1'>
+    <text class='cuisine1'>味道：{{food1[0].taste}}</text>
+  </view>
+  <view class='box1-1'>
+    <text class='hunsu1'>荤素：{{food1[0].hunsu}}</text>
+  </view>
+  <view class='zuofa1'>
+    <text class='zftxt'>原料：</text>
+    <text class='txt1'>
+      {{food1[0].yuanliao}}
+    </text>
+    <text class='zftxt'>调料：</text>
+    <text class='txt1'>
+      {{food1[0].tiaoliao}}
+    </text>
+    <text class='zftxt'>做法：</text>
+    <text class='txt1'>
+      {{food1[0].do}}
+    </text>
+
+    <!-- <text class='zftxt'>营养价值：</text>
+    <text class='txt1'>
+      {{food1[0].nutrition}}
+    </text> -->
+  </view>
+</view>
+
+<!-- 菜2的百科 -->
+<view class='box2'>
+  <view class='box_img2'>
+    <image class='img2' src='{{food2[0].url}}' alt="图二"></image>
+  </view>
+  <view class='box1-2'>
+    <text class='name1'>名称：{{food2[0].name}}</text>
+  </view>
+  <view class='box1-1'>
+    <text class='cuisine2'>味道：{{food2[0].taste}}</text>
+  </view>
+  <view class='box1-1'>
+    <text class='hunsu2'>荤素：{{food2[0].hunsu}}</text>
+  </view>
+  <view class='zuofa2'>
+    <text class='zftxt'>原料：</text>
+    <text class='txt2'>
+      {{food2[0].yuanliao}}
+    </text>
+    <text class='zftxt'>调料：</text>
+    <text class='txt2'>
+      {{food2[0].tiaoliao}}
+    </text>
+    <text class='zftxt'>做法：</text>
+    <text class='txt2'>
+      {{food2[0].do}}
+    </text>
+    <!-- <text class='zftxt'>营养价值：</text>
+    <text class='txt2'>
+      {{food2[0].nutrition}}
+    </text> -->
+  </view>
+</view>
+
+
+</view>
+

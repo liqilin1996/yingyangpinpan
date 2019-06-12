@@ -1,0 +1,58 @@
+page{
+  background: url('https://zn1121.com/images/self_background.png') repeat-x;
+  background-size:100% 110%;
+}
+.search_box{
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 20%;
+  height: 80rpx;
+  border-bottom: 1px solid gray;
+  display: flex;
+  font-size: 32rpx;
+  opacity: 0.6;
+  
+}
+.search_inp{
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  flex: 9;
+  
+}
+.search_icon{
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+  height: 50rpx;
+  width: 50rpx;
+  opacity: 0.2
+}
+.txt_box{
+  width: 100%;
+  text-align: center;
+  margin: 20% 0 0 0 ;
+}
+.txt{
+  font-size: 38rpx;
+  font-family:"方正兰亭超细黑简体";
+}
+.txt_tuijian{
+  float: left;
+  width: 40%;
+  height: 40rpx;
+  margin: 20% 10% 0 0;
+}
+.txt_tuijian_box{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu{
+  font-size: 28rpx;
+  font-family:"方正兰亭超细黑简体";
+}
+.huan{
+  float: right;
+  padding-top: 20%;
+  font-size: 24rpx;
+  font-family:"方正兰亭超细黑简体";
+}

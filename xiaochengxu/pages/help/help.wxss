@@ -1,0 +1,177 @@
+page {
+  background: url('https://zn1121.com/images/helpbg.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.main {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+
+.modal-content {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  z-index: 9500;
+  width: 500rpx;
+  height: 55%;
+  overflow: hidden;
+  padding: 50rpx 50rpx 50rpx;
+  background: #eff;
+  margin: -180rpx 70rpx;
+  border-radius: 20rpx;
+}
+
+.teacher_name_modal {
+  font-family: "楷体";
+  text-align: center;
+  font-size: 150%;
+}
+
+.modal_img {
+  border-radius: 250rpx;
+  width: 250rpx;
+  height: 250rpx;
+  margin: 0 auto;
+  margin-top: 5%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.contact_modal {
+  width: 25%;
+  float: right;
+  margin-right: 5%;
+}
+
+.block_modal {
+  background: #fff;
+  width: 100%;
+  height: 390rpx;
+  margin-top: 40rpx;
+  overflow: scroll;
+}
+
+.block_title_modal {
+  position: relative;
+  font-size: 32rpx;
+  line-height: 1.2;
+  padding: 10rpx;
+  text-indent: 30rpx;
+}
+
+.block_title_modal::after {
+  position: absolute;
+  left: 10rpx;
+  top: 8rpx;
+  content: '';
+  width: 9rpx;
+  height: 46rpx;
+  background: rgb(68, 228, 233);
+}
+
+.block_title_modal_content {
+  font-size: 26rpx;
+  padding: 0 0rpx 0 52rpx;
+  font-family: "幼圆";
+}
+.taste-radio-txt {
+  transform: scale(0.7);
+}
+.title_text {
+  float: left;
+  width: 15%;
+  margin-left: 10%;
+  margin-top: 23%;
+  position: absolute;
+}
+
+.kouwei{
+  position: absolute;
+  top:35%;
+  left: 15%;
+  font-family: '方正兰亭超细黑简体';
+}
+
+.radio-group {
+  float: left;
+}
+
+.radio {
+  font-size: 32rpx;
+}
+
+.taste {
+  margin-top: 8%;
+  margin-left: 25%;
+  font-family: '方正兰亭超细黑简体';
+}
+.caixi_txt{
+  margin-top: 10%;
+  margin-left: 15%;
+  font-family: '方正兰亭超细黑简体';
+}
+.caixi {
+  /* float: left; */
+  width: 60%;
+  margin-left: 25%;
+  margin-top: 4%;
+  font-family: '方正兰亭超细黑简体';
+}
+.tip{
+  margin-top: 30%;
+  margin-left: 15%;
+  height: 300rpx;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.row1{
+position: relative;
+top: -10%;
+font-family: '方正兰亭超细黑简体';
+/* font-size: 90%; */
+}
+.row2{
+font-family: '方正兰亭超细黑简体';
+/* font-size: 90%; */
+}
+
+.btn {
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  height: 100rpx;
+  width: 50%;
+  /* border: 2px solid gray; */
+  border-radius: 15rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  height: 90rpx;
+  width: 100rpx;
+}
+.btn_txt{
+  font-family: '方正兰亭超细黑简体';
+  font-size: 90%;
+  /* position: relative;
+  top: -30rpx; */
+}

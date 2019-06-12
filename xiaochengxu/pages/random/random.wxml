@@ -1,0 +1,13 @@
+<view>
+  <text class='txt'>
+    作为一个吃货，
+    
+    你还在为吃什么而烦恼吗？
+  </text>
+
+  <view>
+    <button class='btn' bindtap='go'>
+      点一点
+    </button>
+  </view>
+</view>
